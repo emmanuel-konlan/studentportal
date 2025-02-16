@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Student Portal</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#announcements">Announcements</a></li>
+            <li><a href="#assignments">Assignments</a></li>
+            <li><a href="#grades">Grades</a></li>
+            <li><a href="#profile">Profile</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="home" class="card">
+            <h3>Dashboard Overview</h3>
+            <p>Welcome back! Here's a summary of your progress.</p>
+        </section>
+
+        <section id="announcements" class="card">
+            <h3>Latest Announcements</h3>
+            <ul>
+                <li>Midterm exams start next week.</li>
+                <li>New assignment posted in Math 101.</li>
+                <li>School holiday on Friday.</li>
+            </ul>
+        </section>
+
+        <section id="assignments" class="card">
+            <h3>Assignments</h3>
+            <ul>
+                <li>Math Homework - Due: Jan 20, 2025</li>
+                <li>Science Project - Due: Jan 25, 2025</li>
+                <li>History Essay - Due: Feb 1, 2025</li>
+            </ul>
+        </section>
+
+        <section id="grades" class="card">
+            <h3>Grades Overview</h3>
+            <p>Math: A</p>
+            <p>Science: B+</p>
+            <p>History: A-</p>
+        </section>
+
+        <section id="profile" class="card">
+            <h3>Student Profile</h3>
+            <p>Name: John Doe</p>
+            <p>Grade: 10</p>
+            <p>Student ID: 12345</p>
+        </section>
+    </div>
+
+    <footer style="text-align:center; padding: 10px; background: #333; color: white;">
+        &copy; 2025 Student Portal. All rights reserved.
+    </footer>
+
+</body>
+</html>
